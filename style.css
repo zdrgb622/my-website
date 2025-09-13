@@ -1,60 +1,19 @@
+/* Minimal custom overrides while Bootstrap handles layout */
 body {
   background-color: #f5f5f5;
-  font-family: Arial, sans-serif;
-  color: #333;
-  text-align: center;
-  margin: 0;
-  padding: 50px 20px;
-  line-height: 1.6;
 }
 
-h1 {
-  color: #007acc;
-  margin-bottom: 20px;
-}
-
-h2 {
-  color: #444;
-  margin-top: 40px;
-  margin-bottom: 15px;
-}
-
-p {
-  max-width: 600px;
-  margin: 0 auto 30px;
-  font-size: 16px;
-}
-
+/* Keep brand-ish link feel; Bootstrap manages hover + colors */
 a {
-  color: #007acc;
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
 a:hover {
-  color: #005f99;
   text-decoration: underline;
 }
 
-#posts {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  padding: 20px;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-#post-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#post-list li {
-  margin: 10px 0;
-}
-
-#post-list a {
-  font-weight: bold;
+/* Optional tweak: use a slightly brighter primary heading color */
+.text-primary {
+  color: #007acc !important;
 }
