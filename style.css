@@ -17,3 +17,79 @@ a:hover {
 .text-primary {
   color: #007acc !important;
 }
+
+/* Post content typography (for admin-generated HTML) */
+.post {
+  overflow-wrap: anywhere;
+}
+
+.post p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.post h2,
+.post h3,
+.post h4 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.post ul,
+.post ol {
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.post img,
+.post video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.375rem;
+  margin: 1rem 0;
+}
+
+.post blockquote {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 4px solid rgba(0, 0, 0, 0.1);
+  color: #555;
+}
+
+.post pre {
+  background: #f8f9fa;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.post code {
+  background: #f8f9fa;
+  border-radius: 0.25rem;
+  padding: 0.2rem 0.35rem;
+}
+
+.post table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.post th,
+.post td {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 0.75rem;
+}
+
+.post thead th {
+  background: #f1f3f5;
+}
+
+.post hr {
+  margin: 2rem 0;
+}
+
+.post a {
+  color: var(--bs-primary);
+}
